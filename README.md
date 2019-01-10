@@ -8,5 +8,5 @@ Using the googlebooks API wrapper, this program accesses a database of books. Th
 <h2>Instructions</h2>
 <hr>
 In route localhost:4567/ type the book you'd like to see in the search bar and then it'll load with the information on it.
-<br />
+
 <strong>*Note:</strong> You can enter partial titles and it will bring up the closest match.
