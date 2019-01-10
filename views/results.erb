@@ -1,0 +1,6 @@
+<% books = GoogleBooks.search(book) %>
+<% first_book = books.first %>
+<%= "<p>""<h2 id='title'>""Title: ""</h2>" + first_book.title + "<br />""</p>"%>
+<%= "<p>""<h2 id='author'>""Author: ""</h2>" + first_book.authors + "<br />""</p>"%>
+<%= "<p>""<h2 id='cover'>""Cover: ""</h2>"+ "<img src=" + first_book.image_link + ">" + "<br />""</p>"%>
+<%= "<p>""<h2 id='description'>""Description: ""</h2>" + first_book.description + "<br />""</p>"%>
